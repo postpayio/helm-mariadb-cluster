@@ -1,0 +1,44 @@
+# Default values for generic.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# The values here are passed directly to the templates that create the base cluster resources.
+# With this in mind you should read the documentation for the MariaDB Operator to understand what values are required.
+
+# Each of the values below are key value pairs. The key is set to the metadata.name of the resource that you are creating.
+# Everything else is the configuration for that resource.
+# If you specify a metadata.name, it will be overridden.
+
+
+# Cluster
+cluster: {}
+
+# Database
+database: {}
+
+# Backups
+backup: {}
+
+# Grants
+grant: {}
+
+# Connection
+connection: {}
+
+# Max Scale
+maxScale: {}
+
+# restore
+restore: {}
+
+# SQL Jobs
+sqlJob: {}
+
+# Mutating Webhook Configuration
+mutatingWebhookConfiguration: {}
+
+# Secrets
+secret: {}
+
+# Config
+config: {}

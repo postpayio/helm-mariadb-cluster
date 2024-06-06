@@ -1,0 +1,4 @@
+Thank you for using the MariaDB Cluster helm chart.
+To get more example of mariadb resources see: https://github.com/mariadb-operator/mariadb-operator/tree/main/examples
+
+See the README in: https://github.com/postpayio/helm-mariadb-cluster
